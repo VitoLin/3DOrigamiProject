@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Gui
+comment1.params=
+comment1.target=Gui()
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=gbl\ comp\ w\ h\ x\ y\ weightx\ weighty
+comment3.target=void\ makeConstraints(java.awt.GridBagLayout,\ javax.swing.JComponent,\ int,\ int,\ int,\ int,\ double,\ double)
+comment3.text=\n\ Generate\ constraints\ for\ Swing\ components\n\ @param\ gbl\ \ \ \ \ a\ gridbaglayout\ that\ used\ to\ embed\ Swing\ component\n\ @param\ comp\ \ \ \ a\ Swing\ component\ intended\ to\ be\ embedded\ in\ gbl\n\ @param\ w\ \ \ \ \ \ \ desired\ component\ width\n\ @param\ h\ \ \ \ \ \ \ desired\ component\ height\n\ @param\ x\ \ \ \ \ \ \ desired\ location\ in\ x-axis\n\ @param\ y\ \ \ \ \ \ \ desired\ location\ in\ y-axis\n\ @param\ weightx\ desired\ weight\ in\ terms\ of\ x-axis\n\ @param\ weighty\ desired\ weight\ in\ terms\ of\ y-axis\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=
+comment5.target=void\ run()
+comment6.params=imagePath
+comment6.target=java.awt.image.BufferedImage\ readPropagate(java.lang.String)
+numComments=7

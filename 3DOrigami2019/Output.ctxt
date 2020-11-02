@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Output
+comment1.params=img\ fileName\ fileType
+comment1.target=void\ returnImage(java.awt.image.BufferedImage,\ java.lang.String,\ java.lang.String)
+comment2.params=img\ colors\ fileName\ fileType
+comment2.target=void\ returnSchem(java.awt.image.BufferedImage,\ java.util.ArrayList,\ java.lang.String,\ java.lang.String)
+numComments=3

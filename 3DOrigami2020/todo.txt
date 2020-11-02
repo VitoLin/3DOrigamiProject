@@ -1,0 +1,3 @@
+add in color selector
+maybe allow the user to adjust HSB change to LCH color space
+create a gui for everything

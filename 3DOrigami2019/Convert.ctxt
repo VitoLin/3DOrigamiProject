@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Convert
+comment1.params=i\ j\ nw\ nh
+comment1.target=void\ convert(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=sss
+comment2.target=void\ doc(java.lang.String)
+comment3.params=in
+comment3.target=java.lang.String\ Checkt(int[])
+comment4.params=c
+comment4.target=java.lang.String\ Check(int[])
+comment5.params=c
+comment5.target=java.lang.String\ cc(int)
+comment6.params=in
+comment6.target=int\ closer(int)
+comment7.params=
+comment7.target=void\ images()
+numComments=8

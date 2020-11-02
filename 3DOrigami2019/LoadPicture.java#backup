@@ -1,0 +1,45 @@
+
+import java.io.File;
+import java.io.IOException;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
+import java.awt.Image;
+import java.util.Scanner;
+public class LoadPicture
+{
+    public static void main(String args[])throws IOException
+    {
+        //this reads the picture that needs to be converted
+        Scanner scal = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter name of the image you want to convert");
+        String choice = scal.nextLine();
+        BufferedImage img = null;
+        File f = null;
+        try
+        {
+            f = new File(choice);
+            img = ImageIO.read(f);
+        }
+        catch(IOException e)
+        {
+            System.out.println(e);
+        }
+        
+        int width = img.getWidth();
+        int height = img.getHeight();
+        System.out.println("Enter your wanted width and height");
+        int newWidth = scan.nextInt();
+        int newHeight = scan.nextInt();
+        
+        
+        try{
+            f = new File("Output.jpg");
+            ImageIO.write(newImage, "jpg", f);
+        }catch(IOException e){
+            System.out.println(e);
+        }
+        
+    }
+    
+}

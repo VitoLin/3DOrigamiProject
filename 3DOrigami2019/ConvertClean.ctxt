@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ConvertClean
+comment1.params=in\ nw\ nh\ range\ grays
+comment1.target=java.awt.image.BufferedImage\ convertBasic(java.lang.String,\ int,\ int,\ int,\ int)
+comment2.params=in\ nw\ nh
+comment2.target=java.awt.image.BufferedImage\ colorvert(java.awt.image.BufferedImage,\ int,\ int)
+comment3.params=pic
+comment3.target=java.awt.image.BufferedImage\ getImage(java.lang.String)
+comment4.params=in\ nw\ nh
+comment4.target=java.awt.image.BufferedImage\ adjustSize(java.awt.image.BufferedImage,\ int,\ int)
+numComments=5
